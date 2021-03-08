@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;    
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .4s;   
+}
+
+#menu ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 160px;
+}
+
+header#cabecalho h1 {
+    font-family: Franklin Gothic Medium ;
+    font-size: 40px;
+    color: #606060;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-left: 20px;
+}
+
+header#cabecalho h2 {
+    font-family: Lucida Sans;
+    font-size: 30px;
+    color: black;
+    padding: 0px;
+    margin-left: 15px;
+    
+}
+
+#img01 {
+    margin: 10px 0 10px 10px;
+}
+
+section#corpo {
+    display: block;
+    width: 80%;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    border-right: 1px solid #606060;
+}
+
+aside#lateral {
+    display: block;
+    width: 20%;
+    float: right;
+    padding: 10px 10px 10px 10px;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
