@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Gotham Post</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/batlogo.ico" type="image/x-icon">
+</head>
+    <body>
+        <div>
+        <header id="cabecalho">      
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="somos.html">Quem Somos</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+                <li><a href="form.html">Inscreva-se</a></li>
+            </ul>
+        </nav>
+        
+            <hgroup>
+                <h1>Gotham Post</h1>
+                <h2>Tudo sobre o Morcego</h2>
+            </hgroup>
+        </header>
+
+        
+        <form id="formulario">
+            <div>
+                <h2>Inscreva se e fique por dentro das novidades</h2>
+                <label for="fname">Nome:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="data">Data de Nascimento:</label><br>
+                <input type="date" id="data" name="data"><br><br>    
+                <label for="email">Email:</label><br>        
+                <input type="email" id="email" name="email"><br><br>
+                <h3>Sexo:</h3>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">M</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">F</label><br><br>
+                <h4>Estado Civil:</h4>
+                <input type="radio" id="estado01" name="ecivil" value="casado">
+                <label for="casado">Casado</label>
+                <input type="radio" id="estado02" name="ecivil" value="enrolado">
+                <label for="enrolado">Solteiro</label>
+                <input type="radio" id="estado03" name="ecivil" value="solteiro">
+                <label for="solteiro">Namorando</label><br><br>
+                <h3>Herói Favorito:</h3>
+                <input type="checkbox" id="hero01" name="hero" value="batman">
+                <label for="batman"> Batman</label><br>
+                <input type="checkbox" id="hero02" name="hero" value="robin">
+                <label for="robin"> Robin</label><br>
+                <input type="checkbox" id="hero03" name="hero" value="super">
+                <label for="super"> Super-Homem</label><br>
+                <input type="checkbox" id="hero04" name="hero" value="mulher">
+                <label for="mulher"> Mulher-Maravilha</label><br>
+                <input type="checkbox" id="hero05" name="hero" value="aqua">
+                <label for="aqua"> Aquaman</label><br>
+                <input type="checkbox" id="hero06" name="hero" value="flash">
+                <label for="flash"> Flash</label><br><br>
+                <h3>Dê a sua sugestão:</h3>
+                <textarea name="message" placeholder="Digite aqui..." rows="05" cols="30"></textarea>
+                <br><br>
+                <input type="submit">
+                <button type="reset">Limpar</button>
+            </div>                    
+        </form>                            
+    </body>
+    <footer id="rodape">
+        <p>Copyright &copy; 2021 - Do zero a um team</p>
+    </footer>
+</html>     
